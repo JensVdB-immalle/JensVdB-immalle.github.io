@@ -1,3 +1,51 @@
 li{
  display: inline;
+ margin-right: 10px;
+ 
 }
+nav{
+    color: white;
+    padding: 10px;
+    background-color: #999;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+nav ul{
+    padding: 0px;
+}
+nav a{
+    color: #999;
+    background-color: white;
+    border: solid 2px #999;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+a:hover{
+    
+    color: #003A70;
+
+}
+section{
+    padding-right: 100px;
+}
+header{
+    text-align: center;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding: 5px 0px 5px 0px;
+    color: #003A70;
+    border-radius: 10px;
+    
+}
+footer
+{
+    text-align: right;
+}
+
