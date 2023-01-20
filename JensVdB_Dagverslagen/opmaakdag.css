@@ -1,59 +1,65 @@
-li{
- display: inline;
- margin-right: 10px;
- 
-}
-nav{
+body {
+    background-color: #fbfbfb; /* Green */
+    margin: 0;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003a70;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #9cb2c7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .active,
+  .btn:hover {
+    color: yellow;
+  }
+  nav {
     color: white;
     padding: 10px;
-    background-color: #999;
+    
     border-radius: 10px;
-    /* text-align: center; */
     border: solid 2px black;
-    margin-bottom: 10px;
-}
-
-nav ul{
+  }
+  
+  nav ul {
     padding: 0px;
-}
-nav a{
-    /* color: #003A70;
-    background-color: white;
-    border: solid 2px #003A70;
+    margin-left: auto;
+  }
+  nav div {
+    display: flex;
+  }
+  
+  #title {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  nav a {
+    color: #003a70;
+    background-color: yell;
+    border: solid 2px #003a70;
     border-radius: 10px;
-    padding: 10px; */
-    background-color: white;
-    color: #003A70 ;
-    text-transform: uppercase;
-    display: inline-flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    border: solid 2px black;
-    text-decoration: none;
-    border-radius: 50px;
-    padding: 15px 30px;
-    
-
-    
-}
-a:hover{
-    
+    padding: 10px;
+  }
+  a:hover {
     color: yellow;
-    background-color: #003A70;
-}
-article{
-    margin-right: 20%;
-    margin-left: 20%;
-    background-color: lightgray;
-    border: solid 2px black;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-}
-header{
+    background-color: #003a70;
+  }
+  article {
+    margin-right: 40%;
+  }
+  header {
     text-align: center;
     background-color: yellow;
     margin-top: 20px;
@@ -61,26 +67,69 @@ header{
     margin-left: 17%;
     margin-right: 17%;
     padding: 5px 0px 5px 0px;
-    color: #003A70;
+    color: #003a70;
     border-radius: 10px;
     border: solid 2px black;
-}
-footer
-{
+  }
+  footer {
     text-align: right;
-}
-#Foto{
-    margin-right: 25%;
-    margin-left: 25%;
-}
-h3{
+  }
+  
+  #hero {
+    border: solid 4px #003a70;
+    padding: 50px;
+    height: 500px;
+    margin: 20px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-image: url("etapgebouw.jpg");
+    background-size: cover;
+    background-position: 100% 45%;  border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #heroText {
+    color: #003a70;
+    font-family: Verdana;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  #heroParagraph {
+    color: #003a70;
+    font-family: Verdana;
+  }
+  
+  .CardContainer {
+    background-color: #9cb2c7; /* Green */
+    width: 17%;
+    height: 300px;
+    border: solid 4px #003a70;
+    border-radius: 50px;
+    padding: 5px;
     text-align: center;
-}
-#Rechts{
-    float: right;
-}
-
-
-
-
-
+    margin: 10;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .CardButton {
+    background-color: yellow; /* Green */
+    border-radius: 50px;
+    border: solid 2px #003a70;
+    color: #003a70;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.5s;
+  }
+  .CardButton:hover {
+    background-color: #003a70;
+    color: yellow;
+    transition: 0.5s;
+  }
+  .CardText {
+    color: #003a70;
+  }
