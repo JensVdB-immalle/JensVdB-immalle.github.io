@@ -153,8 +153,17 @@ body {
     color: #003a70;
     text-align: center;
   }
-  #Foto{
+  .Foto{
+    margin-top: 10px;
     margin-left: 27.5%;
+    margin-bottom: 10px;
+    border: solid 8px #003a70;
+    border-radius: 10px;
+  }
+  #foto2
+  {
+    margin-top: 10px;
+    margin-left: 32.5%;
     margin-bottom: 10px;
     border: solid 8px #003a70;
     border-radius: 10px;
