@@ -153,3 +153,9 @@ body {
     color: #003a70;
     text-align: center;
   }
+  #Foto{
+    margin-left: 27.5%;
+    margin-bottom: 10px;
+    border: solid 8px #003a70;
+    border-radius: 10px;
+  }
