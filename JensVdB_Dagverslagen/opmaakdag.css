@@ -129,6 +129,7 @@ body {
     background-color: #003a70;
     color: yellow;
     transition: 0.5s;
+    cursor: pointer;
   }
   .CardText {
     color: #003a70;
